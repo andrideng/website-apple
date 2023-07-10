@@ -1,0 +1,125 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.page {
+    /* background: green; */
+}
+
+.globalnav {
+    background-color: rgba(22, 22, 23, .8);
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.globalnav-list {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.globalnav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.globalheader {
+    min-height: 50vh; /* 400px */
+    background-image: url(https://www.apple.com/v/home/bb/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall.jpg);
+    background-position: center;
+}
+
+.globalheader-title {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+/* section iphone14 */
+.iphone14 {
+    height: 50vh;
+    background-image: url(https://www.apple.com/id/home/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_mediumtall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.iphone14-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.iphone14-description {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.iphone14-nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.iphone14-link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.iphone14-link_left {
+    padding-left: 30px;
+}
+
+/* collection */
+.collection {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.module {
+    box-shadow: gray 2px 2px 2px 2px;
+    width: 350px;
+    border-radius: 0 0 10px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.module-title {
+    padding-top: 20px;
+}
+
+.module-image {
+    width: 100%;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f5f5f7;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+}
+
+.footer-link {
+    padding-left: 8px;
+}
