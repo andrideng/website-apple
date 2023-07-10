@@ -9,6 +9,12 @@ Generate SSH Key: https://docs.github.com/en/authentication/connecting-to-github
 
 <p>Step untuk push code changes ke github</p>
 <ol>
-    <li>git status</li>
+    <li>git status (warna merah artinya file yang changes)</li>
     <li>git add .</li>
+    <li>git status (warna hijau, file yang sudah ter-add)</li>
+    <li>git commit -m "pesan"</li>
+    <li>git push origin main</li>
 </ol>
+
+<h2>Author</h2>
+<p><b>Andri Deng</b></p>
